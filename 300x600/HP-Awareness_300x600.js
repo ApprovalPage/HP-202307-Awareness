@@ -864,7 +864,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_2.setTransform(454,69.5,1,1,0,0,0,150,53.5);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(184).to({_off:false},0).to({x:164},10,cjs.Ease.quadOut).wait(165));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(179).to({_off:false},0).to({x:164},10,cjs.Ease.quadInOut).wait(170));
 
 	// PIC1
 	this.instance_3 = new lib.PIC1();
@@ -925,7 +925,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HP_Awareness_300x600_atlas_1.jpg?1690066635724", id:"HP_Awareness_300x600_atlas_1"}
+		{src:"images/HP_Awareness_300x600_atlas_1.jpg?1690319542306", id:"HP_Awareness_300x600_atlas_1"}
 	],
 	preloads: []
 };
